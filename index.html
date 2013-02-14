@@ -7,13 +7,27 @@
 		background-color: #111;
 		color: #eee;
 		font-family: "Andale Mono";
+		width: 910px;
+		margin-left: auto;
+		margin-right: auto;
 	}
-	h1 {
+	header h1 {
 		color: #0e0;
 	}
 	nav {
 		display: inline-block;
 		background-color: #020;
+		width: 200px;
+	}
+	nav a {
+		color: #eee;
+		display: block;
+	}
+	article {
+		display: inline-block;
+		vertical-align: top;
+		background-color: #020;
+		width: 700px;
 	}
 	</style>
 </head>
@@ -23,7 +37,13 @@
 		<p>I will teach you to be 1337!</p>
 	</header>
 	<nav>
-	  <a href="/">/</a>
-	</nav> 
+		<a href="/">/</a>
+		<a href="/root">/root</a>
+		<a href="/var">/var</a>
+	</nav>
+	<article>
+		<h2>Hello</h2>
+		test
+	</article>
 </body>
 </html>
